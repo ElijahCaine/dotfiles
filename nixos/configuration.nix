@@ -21,38 +21,38 @@
 
   # Allllllll the packages.
   environment.systemPackages = with pkgs; [
-    wget
-    tmux
-    i3status
-    gnupg
-    terminator
+    audacity
     dmenu
-    firefox
-    pass
-    wicd
-    i3lock
-    xfce.thunar
-    xfce.thunar_volman
+    docker-edge
+    docker_compose
     file
+    firefox
+    gimp
     gitAndTools.gitFull
+    gnumake
+    gnupg
+    htop
+    i3lock
+    i3status
+    lsof
+    minikube
+    mr
     networkmanagerapplet
     obs-studio
+    pass
+    python3Full
+    python3Full
+    steam
+    terminator
+    terraform
+    tmux
+    vagrant
     vlc
     vlc_npapi
-    docker-edge
-    mr
-    terraform
-    python3Full
-    gnumake
-    audacity
-    gimp
-    htop
-    lsof
-    docker_compose
-    vagrant
-    steam
-    minikube
-    python3Full
+    wget
+    wicd
+    xfce.thunar
+    xfce.thunar_volman
   ];
 
   users = {
