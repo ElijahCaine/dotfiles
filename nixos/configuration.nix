@@ -15,45 +15,8 @@
     timeZone = "America/Los_Angeles";
   };
 
-  # Fucking steam. Why you gotta make me do this.
-  nixpkgs.config.allowUnfree = true;
+  # For steam
   hardware.opengl.driSupport32Bit = true;
-
-  # Allllllll the packages.
-  environment.systemPackages = with pkgs; [
-    wget
-    tmux
-    i3status
-    gnupg
-    terminator
-    dmenu
-    firefox
-    pass
-    wicd
-    i3lock
-    xfce.thunar
-    xfce.thunar_volman
-    file
-    gitAndTools.gitFull
-    networkmanagerapplet
-    obs-studio
-    vlc
-    vlc_npapi
-    docker-edge
-    mr
-    terraform
-    python3Full
-    gnumake
-    audacity
-    gimp
-    htop
-    lsof
-    docker_compose
-    vagrant
-    steam
-    minikube
-    python3Full
-  ];
 
   users = {
     extraGroups = {

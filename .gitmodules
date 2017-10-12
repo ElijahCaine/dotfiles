@@ -2,3 +2,6 @@
 	path = bash/.bash-git-prompt
 	url = https://github.com/magicmonty/bash-git-prompt.git
 	branch = master
+[submodule "bash/.bash-git-prompt"]
+	path = bash/.bash-git-prompt
+	url = https://github.com/magicmonty/bash-git-prompt.git
